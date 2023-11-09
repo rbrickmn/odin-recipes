@@ -8,17 +8,13 @@ body {
   background-color: rgb(44, 179, 127);
 }
 
-.content-wrapper {
-  width: 30%;
-}
-
 h1 {
   box-shadow: rgb(212, 66, 66) 4px 4px;
   color: rgb(212, 66, 66);
   font-size: 50px;
 }
 
-.content-wrapper img {
+img {
   box-shadow: rgb(212, 66, 66) 8px 8px;
 }
 
@@ -27,23 +23,28 @@ h1 {
   color: rgb(212, 66, 66);
 }
 
-.content-wrapper ul {
-  background-color: rgb(212, 66, 66);
-}
-
 .content-wrapper ul li {
   font-size: 20px;
   line-height: 50px;
   color: white;
+  width: 15%;
 }
 
-.content-wrapper ul li a {
+ul li a {
   display: block;
   color: white;
   text-decoration: none;
-  width: auto;
 }
 
-.content-wrapper ul li a:hover {
+ul li a:hover {
   text-decoration: underline;
+}
+
+ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(212, 66, 66);
 }
